@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('database', '0050_participant_unregistered'),
+        ('database', '0052_foresttask_params_dict_cache'),
     ]
 
     operations = [
