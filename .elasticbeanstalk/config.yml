@@ -1,6 +1,7 @@
 branch-defaults:
   main:
     environment: beiwe-env
+    group_suffix: null
 global:
   application_name: beiwe-application
   branch: main
