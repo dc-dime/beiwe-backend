@@ -1,10 +1,10 @@
 branch-defaults:
-  main:                            # You can change "master" to any branch name
-    environment: dev-env
+  main:
+    environment: dc-env
 global:
   application_name: beiwe-application
-  default_ec2_keyname: beiwe.cer  # Same as in global_configuration.json
+  default_ec2_keyname: beiwe.cer
   default_platform: 64bit Amazon Linux 2018.03 v2.9.4 running Python 3.6
-  default_region: us-west-2                # Same as in global_configuration.json
-  profile: eb-cli                             # this name just needs to match a profile declared in ~/.aws/
+  default_region: us-west-2
+  profile: eb-cli
   sc: git
