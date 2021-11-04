@@ -1,17 +1,10 @@
-# THIS FILE MAY BE REMOVED FROM THE REPO AT ANY TIME, IT'S INCLUSION WAS NOT INTENTIONAL.
-# PLEASE MAKE BACKUPS OF THIS CONFIGURATION FILE.
-
 branch-defaults:
-  master:
-    environment: beiweCluster-staging
-  development:
-    environment: beiweCluster-staging
-  production:
-    environment: beiweCluster-production
+  main:                            # You can change "master" to any branch name
+    environment: dev-env
 global:
-  application_name: Beiwe Cluster
-  default_ec2_keyname: actually_beiwe_key_pair
+  application_name: beiwe-application
+  default_ec2_keyname: beiwe.cer  # Same as in global_configuration.json
   default_platform: 64bit Amazon Linux 2018.03 v2.9.4 running Python 3.6
-  default_region: us-east-1
-  profile: eb-cli
+  default_region: us-west-2                # Same as in global_configuration.json
+  profile: eb-cli                             # this name just needs to match a profile declared in ~/.aws/
   sc: git
