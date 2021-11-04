@@ -1,9 +1,9 @@
 branch-defaults:
   main:
-    environment: dc-env
+    environment: beiwe-env
 global:
   application_name: beiwe-application
-  branch: null
+  branch: main
   default_ec2_keyname: beiwe.cer
   default_platform: 64bit Amazon Linux 2018.03 v2.9.4 running Python 3.6
   default_region: us-west-2
